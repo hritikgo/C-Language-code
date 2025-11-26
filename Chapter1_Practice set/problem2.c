@@ -1,0 +1,9 @@
+#include <stdio.h>
+
+int main(){
+    int r  = 6;
+    int heigth = 10;
+    printf("The area of circle with radius %d is %f\n", r, 3.14*r*r);
+    printf("The volume of cylinder with radius %d  and height %d is %f", r, heigth, 3.14*r*r*heigth);
+    return 0;
+}
